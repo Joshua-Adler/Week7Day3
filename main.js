@@ -28,7 +28,7 @@ async function doCall(season, round) {
 		tr.appendChild(createData(race.Circuit.circuitName));
 		tr.appendChild(createData(race.Circuit.Location.locality));
 		tr.appendChild(createData(race.Circuit.Location.country));
-		tr.appendChild(createData(`<a href="race.url">Report</a>`));
+		tr.appendChild(createData(`<a href="${race.url}">Report</a>`));
 	}
 }
 
